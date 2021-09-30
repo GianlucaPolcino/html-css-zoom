@@ -3,3 +3,121 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 50px;
+    background-color: black;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-nav button{
+    cursor: pointer;
+    padding: 3px 5px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4b4a4c;
+    color: white;
+    border: none
+}
+
+.right-nav button:hover, .right-nav button:active{
+    background-color: grey;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+    height: calc(100vh - 150px);
+    padding: 30px;
+    background-color: black;
+}
+
+.placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-image: url(../img/yji20vc5c0361.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.placeholder span{
+    width: 40%;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    background-color: #232123;
+    color: white;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
+footer .fa-microphone, footer .fa-video, footer .fa-user-plus, footer .fa-user-friends, footer .fa-poll, footer .fa-share-square, footer .fa-comment, footer .fa-record-vinyl, footer .fa-th-large, footer .fa-ellipsis-h{
+    font-size: 30px;
+    padding: 10px;
+}
+
+footer .fa-share-square{
+    color: green;
+}
+
+.left-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chevron{
+    font-size: 14px;
+}
+
+.center-footer{
+    width: 50%;
+}
+
+.right-footer{
+    cursor: pointer;
+    line-height: 100px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: red;
+    background-color: gray;
+}
+
+
+
+
