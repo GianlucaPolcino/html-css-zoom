@@ -39,7 +39,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     overflow: auto;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 130px);
     padding: 30px;
     background-color: black;
 }
@@ -68,10 +68,14 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 110px;
+    height: 80px;
     text-align: center;
     background-color: #232123;
     color: white;
+}
+
+footer p{
+    font-size: 12px;
 }
 
 footer ul{
@@ -83,12 +87,12 @@ footer ul{
 footer ul li{
     display: inline-block;
     cursor: pointer;
-    padding: 8px 20px;
+    padding: 8px 10px;
 }
 
 footer .fa-microphone, footer .fa-video, footer .fa-user-plus, footer .fa-user-friends, footer .fa-poll, footer .fa-share-square, footer .fa-comment, footer .fa-record-vinyl, footer .fa-th-large, footer .fa-ellipsis-h{
-    font-size: 30px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 4px;
 }
 
 footer .fa-share-square{
@@ -102,14 +106,14 @@ footer .fa-share-square{
 }
 
 .chevron{
-    font-size: 14px;
+    font-size: 2px;
 }
 
 .right-footer{
     cursor: pointer;
-    line-height: 110px;
+    line-height: 80px;
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 16px;
     color: red;
     background-color: gray;
 }
